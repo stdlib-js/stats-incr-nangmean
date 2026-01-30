@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-nangmean",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Compute a geometric mean incrementally, ignoring NaN values.",
   "license": "Apache-2.0",
   "author": {
