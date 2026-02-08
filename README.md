@@ -58,6 +58,11 @@ The [geometric mean][geometric-mean] is defined as the nth root of a product of 
 ## Usage
 
 ```javascript
+import incrnangmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nangmean@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-nangmean/tags). For example,
+
+```javascript
 import incrnangmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nangmean@v0.1.1-deno/mod.js';
 ```
 
@@ -115,7 +120,7 @@ prod = accumulator();
 ```javascript
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
-import incrnangmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nangmean@v0.1.1-deno/mod.js';
+import incrnangmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nangmean@deno/mod.js';
 
 var accumulator;
 var v;
